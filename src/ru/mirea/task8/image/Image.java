@@ -9,7 +9,7 @@ import java.io.IOException;
 public class Image extends JFrame {
     public Image(String href) throws IOException {
         super("Image");
-        setSize(800, 450);
+        setSize(600, 450);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         BufferedImage img = ImageIO.read(new File(href));
         JLabel label = new JLabel(new ImageIcon(img));

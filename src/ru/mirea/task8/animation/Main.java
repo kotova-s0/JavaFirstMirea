@@ -5,16 +5,15 @@ import javax.swing.*;
 public class Main extends Animation{
     public static void main(String[] args) {
         new Animation();
-        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-0.png").getImage());
-        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-1.png").getImage());
-        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-2.png").getImage());
-        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-3.png").getImage());
-        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-4.png").getImage());
-        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-5.png").getImage());
-        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-6.png").getImage());
-        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-7.png").getImage());
-        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-8.png").getImage());
-        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-9.png").getImage());
+        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-01.png").getImage());
+        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-02.png").getImage());
+        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-03.png").getImage());
+        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-04.png").getImage());
+        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-05.png").getImage());
+        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-06.png").getImage());
+        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-07.png").getImage());
+        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-08.png").getImage());
+        framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-09.png").getImage());
         framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-10.png").getImage());
         framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-11.png").getImage());
         framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-12.png").getImage());
@@ -28,11 +27,11 @@ public class Main extends Animation{
         framlist.add(new ImageIcon("src/ru/mirea/task8/animation/gif/frame-20.png").getImage());
         Animation animImg = new Animation();
         while (true) {
-            for (int i = 0; i < 29; i++) {
+            for (int i = 0; i < 20; i++) {
                 image = framlist.get(i);
                 animImg.repaint();
                 try {
-                    Thread.sleep(38);
+                    Thread.sleep(40);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
