@@ -8,7 +8,7 @@ public class Pet implements Nameable {
     }
 
     public Pet(){
-        this.name ="кошак безымянный";
+        this.name ="дворовый бандит";
     }
 
     @Override

@@ -46,7 +46,7 @@ public class FurnitureShop
         }
         if (choice == 2)
         {
-            System.out.println("Оден стол удалён");
+            System.out.println("Один стол удалён");
             tables--;
             sum -= table.cost;
         }
@@ -54,7 +54,7 @@ public class FurnitureShop
 
     public void cart()
     {
-        System.out.println("В корзине сейчас" +tables+ " столов / " +chairs+ " стульев. Всего вещей " +sum+ ".");
+        System.out.println("В корзине сейчас" +tables+ " столов / " +chairs+ " стульев. Всего вещей на" +sum+ ".");
     }
 
     public void pay()

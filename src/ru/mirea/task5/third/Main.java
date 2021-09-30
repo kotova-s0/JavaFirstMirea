@@ -22,7 +22,7 @@ public class Main
                 case 6 -> shop.getBalance();
                 case 7 -> shop.pay();
                 case 8 -> {
-                    System.out.println("Добавить денег: 1");
+                    System.out.println("Добавить денег:");
                     choice = in.nextInt();
                     shop.setMoney(choice);
                 }

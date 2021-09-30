@@ -10,8 +10,8 @@ public class Car implements Nameable,Priceable{
     }
 
     public Car(){
-        this.type = "некруха из гаража";
-        this.price = 1000000;
+        this.type = "жигуль";
+        this.price = 200000;
     }
 
     @Override
