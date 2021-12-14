@@ -15,7 +15,7 @@
 
 [Дженерики Java в теории или как на практике ставить скобки (javarush.ru)](https://javarush.ru/groups/posts/2004-teorija-dzhenerikov-v-java-ili-gde-na-praktike-stavitjh-skobki)
 
-[Дженерики на котиках (javarush.ru)](https://javarush.ru/groups/posts/2310-dzheneriki-na-kotikakh)
+[Дженерики на котиках (javarush.ru)](https://javarush.ru/groups/posts/2310dzheneriki-na-kotikakh)
 
 [Пришел, увидел, обобщил: погружаемся в Java Generics / Хабр (habr.com)](https://habr.com/ru/company/sberbank/blog/416413/)
 
