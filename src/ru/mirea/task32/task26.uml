@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.task26</OriginalElement>
+  <nodes>
+    <node x="162.0" y="81.0">ru.mirea.task26.CreditCardPay</node>
+    <node x="0.0" y="81.0">ru.mirea.task26.QiwiWalletPay</node>
+    <node x="0.0" y="157.0">ru.mirea.task26.Main</node>
+    <node x="88.0" y="0.0">ru.mirea.task26.PayStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task26.CreditCardPay" target="ru.mirea.task26.PayStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="233.0" y="56.0" />
+      <point x="152.0" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="ru.mirea.task26.QiwiWalletPay" target="ru.mirea.task26.PayStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="71.0" y="56.0" />
+      <point x="152.0" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="152.0" y="94.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
