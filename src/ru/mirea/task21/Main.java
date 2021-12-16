@@ -11,7 +11,7 @@ class Subway {
                 "Lyublinskaya", "Arbatsko-Pokrovskaya", "Sokolnicheskaya", "Koltsevaya", "Kaluzsko-Rizhskaya", "Filyovskaya"));
     }
 
-    public void printLines(boolean a) {
+    public void printList(boolean a) {
         if (a==true)// выведем четные номера
             for (int i=0; i<lines.size();i+=2) System.out.println(lines.get(i));
 
@@ -22,6 +22,6 @@ class Subway {
 public class Main {
     public static void main(String[] args) {
         Subway subway = new Subway();
-        subway.printLines(false);
+        subway.printList(false);
     }
 }

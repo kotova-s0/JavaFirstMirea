@@ -16,7 +16,6 @@ public class Main {
         System.out.print(str_1.hashCode() + " " + str_2.hashCode() + " : ");
         System.out.println(str_1.hashCode() == str_2.hashCode());
 
-
         System.out.print(str_2.hashCode() + " " + str_3.hashCode() + " : ");
         System.out.println(str_2.hashCode() == str_3.hashCode());
 

@@ -11,7 +11,7 @@ class task1 {
         Names.put("Elizarov", "Dima");
         Names.put("Shatov", "Denis");
         Names.put("Aupova", "Renata");
-        Names.put("Torosyan", "Oksana");
+        Names.put("Sitov", "Denis");
         Names.put("Andiewskii", "Maksim");
         Names.put("Fedorov", "Artyom");
 
